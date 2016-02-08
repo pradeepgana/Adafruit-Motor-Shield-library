@@ -3,14 +3,14 @@
 // this code is public domain, enjoy!
 
 
-#if (ARDUINO >= 100)
+//#if (ARDUINO >= 100)
   #include "Arduino.h"
-#else
-  #if defined(__AVR__)
-    #include <avr/io.h>
-  #endif
+//#else
+  //#if defined(__AVR__)
+    //#include <avr/io.h>
+  //#endif
   #include "WProgram.h"
-#endif
+//#endif
 
 #include "AFMotor.h"
 
